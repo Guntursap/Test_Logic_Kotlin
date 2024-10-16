@@ -19,7 +19,6 @@ fun main(){
         }
     }
 }
-
 fun gAnagram(f: String, s:String): Boolean{
 
     val fPro = f.lowercase().filter { it.isLetterOrDigit() }
